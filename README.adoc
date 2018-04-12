@@ -76,6 +76,3 @@ conduct.
 
 The gem is available as open source under the terms of the
 http://opensource.org/licenses/MIT[MIT License].
-
-This repository contains a copy of GeoLite2 City database created by Maxmind,
-and licensed on https://creativecommons.org/licenses/by-sa/4.0[CC BY-SA 4.0].
