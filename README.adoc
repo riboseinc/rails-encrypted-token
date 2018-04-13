@@ -4,7 +4,10 @@
 image:https://img.shields.io/gem/v/rails-encrypted-token.svg["Gem Version", link="https://rubygems.org/gems/rails-encrypted-token"]
 image:https://img.shields.io/travis/riboseinc/rails-encrypted-token/master.svg["Build Status", link="https://travis-ci.org/riboseinc/rails-encrypted-token"]
 image:https://img.shields.io/codecov/c/github/riboseinc/rails-encrypted-token.svg["Test Coverage", link="https://codecov.io/gh/riboseinc/rails-encrypted-token"]
-image:https://img.shields.io/codeclimate/github/riboseinc/rails-encrypted-token.svg["Code Climate", link="https://codeclimate.com/github/riboseinc/rails-encrypted-token"]
+// image:https://img.shields.io/codeclimate/maintainability/riboseinc/rails-encrypted-token.svg["Maintainability", link="https://codeclimate.com/github/riboseinc/rails-encrypted-token/maintainability"]
+image:https://api.codeclimate.com/v1/badges/a8f60a83b7ef381d5c53/maintainability["Maintainability", link="https://codeclimate.com/github/riboseinc/rails-encrypted-token/maintainability"]
+// image:https://img.shields.io/codeclimate/coverage/riboseinc/rails-encrypted-token.svg["Test Coverage", link="https://codeclimate.com/github/riboseinc/rails-encrypted-token/test_coverage"]
+image:https://api.codeclimate.com/v1/badges/a8f60a83b7ef381d5c53/test_coverage["Test Coverage", link="https://codeclimate.com/github/riboseinc/rails-encrypted-token/test_coverage"]
 
 `rails-encrypted-token` implements CSRF using the
 https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#Encrypted_Token_Pattern[encrypted
