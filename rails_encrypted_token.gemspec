@@ -2,17 +2,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "rails-encrypted-token/version"
+require "rails_encrypted_token/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "rails-encrypted-token"
+  spec.name          = "rails_encrypted_token"
   spec.version       = RailsEncryptedToken::VERSION
   spec.authors       = ["Ribose Inc."]
   spec.email         = ["open.source@ribose.com"]
 
   spec.summary       = "encrypted token-based CSRF for Rails"
   spec.description   = spec.summary
-  spec.homepage      = "https://github.com/riboseinc/rails-encrypted-token"
+  spec.homepage      = "https://github.com/riboseinc/rails_encrypted_token"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

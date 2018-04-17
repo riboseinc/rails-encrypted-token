@@ -1,4 +1,4 @@
-require "rails-encrypted-token/version"
+require "rails_encrypted_token/version"
 
 module RailsEncryptedToken
   # Your code goes here...

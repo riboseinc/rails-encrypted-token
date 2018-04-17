@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "rails-encrypted-token"
+require "rails_encrypted_token"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
