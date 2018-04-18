@@ -4,8 +4,10 @@ Bundler.require :default, :development
 require "simplecov"
 SimpleCov.start
 
-require "codecov"
-SimpleCov.formatter = SimpleCov::Formatter::Codecov
+if ENV["CODECOV_TOKEN"].present?
+  require "codecov"
+  SimpleCov.formatter = SimpleCov::Formatter::Codecov
+end
 
 require "rspec/rails"
 require "rails_encrypted_token"
