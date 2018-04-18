@@ -1,10 +1,10 @@
 require "bundler/setup"
 Bundler.require :default, :development
 
-require 'simplecov'
+require "simplecov"
 SimpleCov.start
 
-require 'codecov'
+require "codecov"
 SimpleCov.formatter = SimpleCov::Formatter::Codecov
 
 require "rspec/rails"
