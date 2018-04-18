@@ -31,8 +31,20 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "rotp"
+  spec.add_dependency "ffxcodec"
+  spec.add_dependency "base32"
+
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.7"
+  spec.add_development_dependency "rails", "~> 5.2"
   spec.add_development_dependency "rspec-rails", "~> 3.7"
+  spec.add_development_dependency "sprockets"
+  spec.add_development_dependency "sprockets-rails"
+  spec.add_development_dependency "combustion", '~> 0.9.0'
+  spec.add_development_dependency "timecop"
+
+  spec.add_development_dependency "sqlite3"
+  spec.add_development_dependency "pry-byebug"
 end
