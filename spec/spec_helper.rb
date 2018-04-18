@@ -4,7 +4,7 @@ Bundler.require :default, :development
 require "simplecov"
 SimpleCov.start
 
-if ENV["CODECOV_TOKEN"].present?
+if ENV["CI"].present?
   require "codecov"
   SimpleCov.formatter = SimpleCov::Formatter::Codecov
 end
