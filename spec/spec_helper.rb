@@ -1,6 +1,12 @@
 require "bundler/setup"
 Bundler.require :default, :development
 
+require 'simplecov'
+SimpleCov.start
+
+require 'codecov'
+SimpleCov.formatter = SimpleCov::Formatter::Codecov
+
 require "rspec/rails"
 require "rails_encrypted_token"
 

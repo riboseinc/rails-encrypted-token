@@ -7,3 +7,5 @@ gemspec
 
 # Fix deprecation warnings on OpenSSL
 gem "ffxcodec", github: "riboseinc/ffxcodec"
+
+gem "codecov", require: false, group: :test
