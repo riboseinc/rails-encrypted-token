@@ -1,3 +1,6 @@
+# (c) Copyright 2018 Ribose Inc.
+#
+
 require "rotp"
 require "base32"
 require "ffxcodec"
