@@ -1,1 +1,1 @@
-//= link ret.js
+//= link csrf-et.js
