@@ -268,7 +268,7 @@ RSpec.describe RailsEncryptedToken::Token do
       end
 
       context "is way after the limit" do
-        let(:time_delta) { 35990 }
+        let(:time_delta) { 1 << 512 }
 
         it { is_expected.to_not be_token_valid(nonce, generated_token) }
       end
